@@ -2,6 +2,9 @@ package com.my.company.menu;
 
 import java.util.UUID;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "items")
 public class MenuItem {
 	
 	private String id;
